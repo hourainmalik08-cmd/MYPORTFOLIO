@@ -23,6 +23,7 @@ body{
     margin-bottom: 10px;
     font-size: 16px;
 }
+
 .section1{
     background-color: #ffc2f2b0;
     width: 500px;
@@ -70,3 +71,12 @@ ul{
     box-sizing: border-box;
     margin: auto;
 }
+@media (max-width: 768px){
+
+    .container{
+        flex-direction:column;
+        align-items:center;
+    }
+    .section1, .section2, .section3, .section4{
+        width: 90%;
+    }
